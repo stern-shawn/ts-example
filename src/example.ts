@@ -9,7 +9,7 @@
 //   hobbies?: string[];
 // };
 
-// let john: Person = {
+// const john: Person = {
 //   name: 'John',
 //   age: 42,
 //   isAway: false,

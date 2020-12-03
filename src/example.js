@@ -4,7 +4,7 @@ const getCasedString = (myString) => {
 
 console.log(getCasedString());
 
-// let john = {
+// const john = {
 //   name: 'John',
 //   age: 42,
 //   isAway: false,
