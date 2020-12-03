@@ -1,8 +1,6 @@
-const getCasedString = (myString: string): string => {
-  return myString.toLowerCase();
-};
+// const getCasedString = (myString: string): string => {};
 
-console.log(getCasedString('TYPESCRIPT'));
+// console.log(getCasedString('TYPESCRIPT'));
 
 // type Person = {
 //   name: string;
@@ -18,7 +16,6 @@ console.log(getCasedString('TYPESCRIPT'));
 //   hobbies: [1, 2],
 // };
 
-// const getHobbies = (person: Person) => {
-// };
+// const getHobbies = (person: Person) => {};
 
 // console.log(getHobbies(john));
