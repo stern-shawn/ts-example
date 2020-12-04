@@ -10,7 +10,7 @@ As we're going through the examples, having `src/example.js` + `src/example.ts` 
 
 For the best possible experience and to see TypeScript in action, I suggest having the following set up beforehand:
 
-- Editor: VS Code. (Others such as IntelliJ, WebStorm, etc should also work, but VS Code is my personal favorite)
+- Editor: VS Code. (IntelliJ, WebStorm, etc should also work, but I can't speak to their TypeScript support 😅)
 - Environment: These examples require the NodeJS runtime, specifically version 12.17.0+. If you already have [NVM](https://github.com/nvm-sh/nvm#installing-and-updating) installed, all you need to do is run `nvm use` from this directory and you're all set! Otherwise you may install NodeJS manually from [here](https://nodejs.org/en/download/).
 - Dependencies: These examples rely on a few dependencies, please install these by running `yarn` in this directory. `npm i` is also a valid option if you prefer not to use `yarn`!
 
