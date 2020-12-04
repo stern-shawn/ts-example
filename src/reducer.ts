@@ -13,9 +13,9 @@ type ToggleTodo = {
   index: number;
 };
 
-type ReduxAction = AddTodo | ToggleTodo;
+type Action = AddTodo | ToggleTodo;
 
-const todosReducer = (state: Todo[] = [], action: ReduxAction): Todo[] => {
+const todosReducer = (state: Todo[] = [], action: Action): Todo[] => {
   switch (action.type) {
     case 'ADD_TODO':
       return [...state, { text: action.text, done: false }];
